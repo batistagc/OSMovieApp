@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213B538226F3F63B00BF4118 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B538126F3F63B00BF4118 /* Movie.swift */; };
+		213B538426F3F87500BF4118 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B538326F3F87500BF4118 /* Service.swift */; };
 		21CB23C726F38EB3000143E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB23C626F38EB3000143E3 /* AppDelegate.swift */; };
 		21CB23C926F38EB3000143E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB23C826F38EB3000143E3 /* SceneDelegate.swift */; };
 		21CB23CB26F38EB3000143E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB23CA26F38EB3000143E3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		213B538126F3F63B00BF4118 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		213B538326F3F87500BF4118 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		21CB23C326F38EB3000143E3 /* OSMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CB23C626F38EB3000143E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21CB23C826F38EB3000143E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				21CB23CF26F38EB7000143E3 /* Assets.xcassets */,
 				21CB23D126F38EB7000143E3 /* LaunchScreen.storyboard */,
 				21CB23D426F38EB7000143E3 /* Info.plist */,
+				213B538126F3F63B00BF4118 /* Movie.swift */,
+				213B538326F3F87500BF4118 /* Service.swift */,
 			);
 			path = OSMovieApp;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				21CB23CB26F38EB3000143E3 /* ViewController.swift in Sources */,
 				21CB23C726F38EB3000143E3 /* AppDelegate.swift in Sources */,
+				213B538426F3F87500BF4118 /* Service.swift in Sources */,
+				213B538226F3F63B00BF4118 /* Movie.swift in Sources */,
 				21CB23C926F38EB3000143E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
