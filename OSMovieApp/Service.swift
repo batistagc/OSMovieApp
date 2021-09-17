@@ -15,13 +15,17 @@ func getMovieDetails() {
             if let data = data{
                 do{
                     let res = try JSONDecoder().decode(Root.self, from: data)
+                    print(res.title)
+                    print(res.release_date)
+                    print(res.popularity)
+                    print(res.vote_count)
                 }catch let error{
                     print(error)
                 }
+
             }
             
         }.resume()
     }
-    
-    
+
 }
